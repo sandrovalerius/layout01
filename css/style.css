@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Ubuntu&display=swap');
+
+/* fontes pra eu usar
+font-family: 'Noto Sans Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+
+@font-face {
+    font-family: 'star';
+    src:url(./Starjedi.ttf);
+}
+
+nav, div, footer {
+    width: 960px;
+    height: auto;
+    left: 50%;
+    /* border: 1px red dashed; */
+    margin-top: 15px;
+    margin-left: -480px;
+    position: relative;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    /* font-family: 'Noto Sans Mono', monospace; */
+    font-family: 'star';
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+article {
+    width: 450px;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    float: left;
+    background-image: url(../img/bg001.jpg);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
